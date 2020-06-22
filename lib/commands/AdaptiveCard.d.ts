@@ -1,0 +1,24 @@
+import { TurnContext } from 'botbuilder';
+declare const name = "Adaptive Card";
+declare function help(): {
+    'card bingsports': string;
+    'card breakfast': string;
+    'card broken:lang': string;
+    'card broken': string;
+    'card flight': string;
+    'card flighttracking': string;
+    'card arabicgreeting': string;
+    'card inputs': string;
+    'card ol': string;
+    'card markdown': string;
+    'card reminder': string;
+    'card restaurant': string;
+    'card review': string;
+    'card richmessage': string;
+    'card simple': string;
+    'card sportsclub': string;
+    'card ul': string;
+    'card weather': string;
+};
+declare function processor(context: TurnContext, ...names: string[]): Promise<void>;
+export { help, name, processor };
