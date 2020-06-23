@@ -1,6 +1,6 @@
 {
   "name": "mockbot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
   "private": true,
@@ -30,8 +30,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "auto-reset-event": "^1.0.0",
-    "botbuilder": "^4.7.0",
-    "botbuilder-dialogs": "^4.7.0",
+    "botbuilder": "^4.9.0",
+    "botbuilder-dialogs": "^4.9.0",
     "delay": "^4.3.0",
     "dotenv": "^8.0.0",
     "node-fetch": "^2.6.0",
